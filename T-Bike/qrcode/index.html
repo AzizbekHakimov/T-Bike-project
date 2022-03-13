@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>T-bike scanner</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="../styles/main.css"> -->
+    <script src="https://rawgit.com/sitepoint-editors/jsqrcode/master/src/qr_packed.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <h1>Click here to scan the QR code</h1>
+
+      <a id="btn-scan-qr">
+        <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg">
+      </a>
+      <canvas hidden="" id="qr-canvas"></canvas>
+
+      <div id="qr-result" hidden="">
+        <b>Data:</b> <span id="outputData"></span>
+      </div>
+    </div>
+    <a href="startpage.html" class="start btn-start"> START</a>
+    <!-- <button class="start btn-start">
+      START
+    </button> -->
+    <script src="script.js"></script>
+  </body>
+</html>
