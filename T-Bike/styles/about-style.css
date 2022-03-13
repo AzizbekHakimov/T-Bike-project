@@ -1,0 +1,108 @@
+/******************/
+/* NAv styles */
+/******************/
+
+/******************/
+/* ABOUT-tBIKE styles */
+/******************/
+.about-tBike{
+    margin: 2rem 0;
+    padding-left: 10%;
+    display: flex;
+}
+.about-t{
+    width: 50%;
+    padding-right: 10rem;
+}
+.about-t h2{
+    text-align: left;
+    line-height: 6rem;
+    margin: 2rem 0;
+}
+.about-t p,.team p{
+    font-family: SegoeUI;
+    font-size:1.6rem;
+    line-height: 2.5rem;
+}
+.about-t h3,.team h3{
+    padding: 2rem 0;
+    font-family: SegoeUI;
+    font-size:2.4rem;
+}
+.about-tVideo{
+    position: relative;
+    width: 50%;
+    background-image: url(../img/new-banner.png);
+    background-position: center;
+    object-fit: cover;
+}
+.player{
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left:0;
+    transform: translate(-50%,-50%);
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: #00dcf7;
+}
+.player:hover{
+    background-color: #0cd7f1;
+    box-shadow: 1px 1px 6px 4px rgba(0, 0, 0, 0.09);
+}
+.player img{
+    width: 20%;
+}
+.about-video{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.about-vid{
+    display: none;
+    width: 70vw;
+    height: 70vh;
+    position: absolute;
+    top: 15vh;
+    right: 15vw;
+    object-fit: cover;
+}
+/******************/
+/* TEAM styles */
+/******************/
+.team{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 0 6rem 0;
+    text-align: center;
+    background-color: #d7e0ea;
+}
+.team .container{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.staff{
+    padding: 5rem 10rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10rem;
+}
+.person{
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.person img{
+    width: 100%;
+}
