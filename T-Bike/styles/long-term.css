@@ -1,0 +1,91 @@
+
+
+.about-long-term{
+    display: grid;
+    padding: 5rem 0 0 10%;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 2rem;
+    /* grid-row: 1fr 1fr; */
+}
+.long-term-img{
+    grid-column: 2;
+    grid-row: 1/3;
+}
+.long-term-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.long-term-text h2{
+    margin-top: 0;
+    text-align: left;
+    line-height: 3.8rem;
+    font-size: 3rem;
+}
+.longterm-h3{
+    font-family: CircularStd;
+    font-size: 2rem;
+    color: black;
+    text-align: left;
+}
+.long-term-p{
+    color: black;
+    margin-top: 2rem;
+}
+.long-term-features h2{
+    margin-top: 0;
+    text-align: left;
+}
+.long-term-features button{
+    margin: 2rem 0;
+}
+.interested-in-us-form input{
+    font-family: CircularStd;
+    padding: 1rem;
+    width: 30rem;
+    height: 5rem;
+    margin: 0 2rem 8rem 0;
+    border: 2px solid rgba(0, 0, 0, 0.568);
+    border-radius: 0.5rem;
+}
+
+.interested-btn{
+    border-radius: 5px;
+}
+
+
+.benefits-section{
+    padding: 4rem 10rem;
+    background-color: #d7e0ea;
+}
+.benefits-section h2{
+    margin: 0;
+}
+.benefits{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+.benefit{
+    background-color: #fff;
+    padding: 4rem;
+    
+}
+.benefit-img{
+    width: 30%;
+}
+.benefit-img img{
+    width: 100%;
+}
+.benefit-description h3{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #3269a8;
+    margin: 1rem 0;
+}
+.benefit-description p{
+    color: #83878f;
+    margin: 3rem 0;
+}
